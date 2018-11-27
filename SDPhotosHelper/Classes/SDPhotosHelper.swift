@@ -274,7 +274,7 @@ public class SDPhotosHelper: NSObject {
         return fetchResult
     }
     
-    fileprivate static func getAlbum(withName name:String) -> PHAssetCollection? {
+    public static func getAlbum(withName name:String) -> PHAssetCollection? {
         
         let assetCollection = PHAssetCollection.fetchAssetCollections(with: .album, subtype: .albumRegular, options: nil)
         guard assetCollection.count > 0 else {
