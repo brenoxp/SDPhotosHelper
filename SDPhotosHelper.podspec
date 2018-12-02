@@ -15,4 +15,6 @@ s.source           = { :git => 'https://github.com/SagarSDagdu/SDPhotosHelper.gi
 s.ios.deployment_target = '9.0'
 s.source_files = 'SDPhotosHelper/Classes/*.swift'
 
+s.dependency 'PromiseKit', '~> 6.0'
+
 end
